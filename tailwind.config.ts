@@ -19,8 +19,18 @@ const config: Config = {
       },
       colors: {
         'burnt-yellow': '#C4AF9A',
-        'off-black' : '#1E1E24'
+        'off-black' : '#1E1E24',
+        'off-white' : '#FAF9F6'
       },
+      screens: {
+        'sm' : '475px',
+        'md' : '768px',
+        'lg' : '1024px',
+        'xl' : '1440px'
+      }
+      // translate: {
+      //   'menuInitialPos': 'translateX(-100%)'
+      // }
     },
   },
   plugins: [],
