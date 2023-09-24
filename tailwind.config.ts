@@ -28,9 +28,6 @@ const config: Config = {
         'lg' : '1024px',
         'xl' : '1440px'
       }
-      // translate: {
-      //   'menuInitialPos': 'translateX(-100%)'
-      // }
     },
   },
   plugins: [],

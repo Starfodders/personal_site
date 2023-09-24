@@ -9,11 +9,10 @@ const App = () => {
   return (
     <div className='app-wrapper'>
       <NavBar/>
-      <h1 className = "text-9xl font-poppins fw-black text-off-white">Michael Deng</h1>
       <IntroName/>
-      <Skillset/>
+      {/* <Skillset/>
       <ProjectPreview/>
-      <Contact/>
+      <Contact/> */}
     </div>
   )
 }

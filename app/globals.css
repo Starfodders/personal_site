@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@400,800,900&display=swap");
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -66,9 +66,6 @@ h1 {
   animation: menuSlideOut 0.5s forwards ease-in;
 }
 
-.initial-menu-pos {
-  transform: translateX(-100%);
-}
 @keyframes menuSlideIn {
   0% {
     transform: translateX(-100%);

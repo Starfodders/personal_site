@@ -53,7 +53,8 @@ const IntroName = () => {
 
   return (
     <>
-      <p className = "text-2xl font-abel text-burnt-yellow font-semibold flex items-center tracking-widest">{displayedName}</p>
+      <h1 className = "text-4xl font-poppins font-extrabold text-off-white flex justify-center tracking-wider mt-[10rem]">MICHAEL DENG</h1>
+      <p className = "text-xl font-poppins text-burnt-yellow font-regular flex justify-center tracking-widest mt-4">{displayedName}</p>
     </>
   )
 }
