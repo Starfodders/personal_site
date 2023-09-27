@@ -50,7 +50,8 @@ h6 {
 }
 
 body {
-  background-color: #1e1e24;
+  background: rgb(2,14,24);
+background: linear-gradient(180deg, rgba(2,14,24,1) 0%, rgba(6,16,30,1) 100%);
   color: white;
   margin: 0;
 }

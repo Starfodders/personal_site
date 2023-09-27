@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <>
       {/* Mobile Nav Menu */}
-      <div className="flex justify-start w-full md:justify-between">
+      <div className="flex justify-start w-full md:justify-between md:mt-3">
         <MobileNavMenu />
         <div className="w-1/3">Logo</div>
         <div className="w-4/12 hidden justify-center md:flex">
