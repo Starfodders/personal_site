@@ -1,18 +1,12 @@
-import React from 'react'
+import SkillsetContents from "./SkillsetContents"
 
 const Skillset = () => {
   return (
-    <div>
-        <p>React</p>
-        <p>NextJS</p>
-        <p>Typescript</p>
-        <p>Vue</p>
-        <p>Tailwind/SCSS</p>
-        <p>MySQL</p>
-        <p>ExpressJS</p>
-        <p>AWS</p>
-        <p>Figma</p>
+    <div className='w-full flex flex-col items-center gap-5 mb-[20rem] md:p-10 lg:mb-[10rem]'>
+      <h2 className='text-5xl font-poppins font-bold pb-10 lg:text-6xl lg:pb-11'>My Toolkit</h2>
+      <SkillsetContents/>
     </div>
+    
   )
 }
 

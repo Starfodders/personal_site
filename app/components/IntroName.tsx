@@ -52,10 +52,10 @@ const IntroName = () => {
   }, [name]);
 
   return (
-    <>
-      <h1 className = "text-4xl font-poppins font-extrabold text-off-white flex justify-center tracking-wider mt-[25rem] md:text-6xl md:mt-[25rem]">MICHAEL DENG</h1>
-      <p className = "text-2xl font-poppins text-burnt-yellow font-regular flex justify-center tracking-widest mt-4 mb-[50rem] md:text-3xl">{displayedName}</p>
-    </>
+    <div className='w-screen h-screen flex flex-col justify-center'>
+      <h1 className = "text-4xl font-poppins font-extrabold text-off-white flex justify-center tracking-wider md:text-6xl">MICHAEL DENG</h1>
+      <p className = "text-2xl font-poppins text-burnt-yellow font-regular flex justify-center tracking-widest mt-4 md:text-3xl">{displayedName}</p>
+    </div>
   )
 }
 

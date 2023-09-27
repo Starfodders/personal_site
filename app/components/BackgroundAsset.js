@@ -12,8 +12,8 @@ const SphereMesh = () => {
             meshRef.current.rotation.y += 0.01;
             elapsedTime += state.clock.getDelta(); 
 
-            meshRef.current.children[0].position.x = -1.2 * Math.sin(elapsedTime * 0.006); 
-            meshRef.current.children[0].position.z = 0.2 * Math.cos(elapsedTime * 0.006);
+            meshRef.current.children[0].position.x = 0 * Math.sin(elapsedTime * 0.006); 
+            meshRef.current.children[0].position.z = 0 * Math.cos(elapsedTime * 0.006);
 
             // meshRef.current.children[1].position.x = 0.8 * Math.sin(elapsedTime * 1.2);
             // meshRef.current.children[1].position.z = 0.8 * Math.cos(elapsedTime * 1.2);
@@ -23,7 +23,7 @@ const SphereMesh = () => {
     return (
         <mesh ref={meshRef} position={[0, 2, 0]}  castShadow rotation={[Math.PI / 1.3, 0, 0.2]}>
             <sphereGeometry args={[1, 32, 32]} />
-            <meshStandardMaterial color="#5B9ED7" wireframe = {true} />
+            <meshStandardMaterial color="#5B9ED7" transparent = {true} opacity={0.5}/>
             <SphereMesh2/>
             {/* <SphereMesh3/> */}
             <CubeMesh/>
@@ -42,8 +42,8 @@ const SphereMesh2 = () => {
     });
 
     return (
-    <mesh ref={meshRef2} position={[0.3, 0.1, 0.5]}  castShadow rotation={[Math.PI / 1.3, 5, 0.2]}>
-        <sphereGeometry args={[0.2, 32, 32]} />
+    <mesh ref={meshRef2} position={[0, 0, 0]}  castShadow rotation={[Math.PI / 1.3, 5, 0.2]}>
+        <sphereGeometry args={[0.5, 32, 32]} />
         <meshStandardMaterial color="white" wireframe = {true}/>
     </mesh>
 );
@@ -79,7 +79,7 @@ const CubeMesh2 = () => {
     return (
         <mesh position={[0, 0, 0]} rotation = {[0, Math.PI/4, 0]}>
             <boxGeometry args={[2, 2, 2]} />
-            <meshStandardMaterial color="#FFB854" wireframe= {true} />
+            <meshStandardMaterial color="#FFB854" wireframe = {true}/>
         </mesh>
     );
 }
@@ -89,7 +89,7 @@ const BottomPlane = () => {
     return (
         <mesh receiveShadow position={[0, -2.5, 0]} rotation={[-Math.PI / 2, 0, 0]}>
             <planeGeometry args={[100, 100]}/>
-            <meshStandardMaterial color="051F36"/>
+            <meshStandardMaterial color="#020e18"/>
         </mesh>
     )
 }

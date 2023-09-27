@@ -20,13 +20,18 @@ const config: Config = {
       colors: {
         'burnt-yellow': '#C4AF9A',
         'off-black' : '#1E1E24',
-        'off-white' : '#FAF9F6'
+        'off-white' : '#E5E5E5',
+        'pillbox-color': '#BEBEBE'
       },
       screens: {
         'sm' : '475px',
         'md' : '768px',
         'lg' : '1024px',
         'xl' : '1440px'
+      },
+      width: {
+        'logo' : '40px',
+        'logo-lg' : '60px'
       }
     },
   },
