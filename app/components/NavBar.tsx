@@ -13,7 +13,6 @@ const NavBar = () => {
         if (window.scrollY > 700) {
             setShowSecondaryNav(true);
 
-            
         } else {
             setShowSecondaryNav(false);
             
