@@ -15,7 +15,8 @@ const config: Config = {
       },
       fontFamily: {
         'abel': 'Abel, sans-serif',
-        'poppins': 'Poppins, sans-serif'
+        'poppins': 'Poppins, sans-serif',
+        'mono' :'Roboto Mono, monospace'
       },
       colors: {
         'burnt-yellow': '#C4AF9A',
