@@ -71,6 +71,14 @@ html {
   animation: menuSlideOut 0.5s forwards ease-in;
 }
 
+.animate-navDown {
+  animation: navSlideDown 0.5s forwards ease-in;
+}
+.animate-navUp {
+  animation: navSlideUp 0.5s forwards ease-in;
+
+}
+
 @keyframes menuSlideIn {
   0% {
     transform: translateX(-100%);
@@ -95,6 +103,30 @@ html {
   }
   100% {
     transform: translateX(-100%);
+    opacity: 0;
+
+  }
+}
+
+@keyframes navSlideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+}
+
+@keyframes navSlideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
     opacity: 0;
 
   }

@@ -1,7 +1,32 @@
-import '../globals.css'
+'use client'
 import MobileNavMenu from './MobileNavMenu'
+import ScrollNavBar from './ScrollNavBar'
+
+import { useState, useEffect } from 'react'
 
 const NavBar = () => {
+
+  const [showSecondaryNav, setShowSecondaryNav] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+        if (window.scrollY > 700) {
+            setShowSecondaryNav(true);
+
+            
+        } else {
+            setShowSecondaryNav(false);
+            
+        }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+        window.removeEventListener('scroll', handleScroll);
+    };
+}, []);
+
 
   return (
     <>
@@ -22,6 +47,7 @@ const NavBar = () => {
         {/* Spacer */}
         <div className="hidden w-4/12 md:block"></div>
       </div>
+      {showSecondaryNav && <ScrollNavBar navState = {showSecondaryNav}/>}
     </>
   )
 }
