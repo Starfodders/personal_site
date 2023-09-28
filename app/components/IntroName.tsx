@@ -43,7 +43,7 @@ const IntroName = () => {
     
     
 
-    const intervalIdReveal: ReturnType<typeof setInterval> = setInterval(revealOriginalName, 100);
+    const intervalIdReveal: ReturnType<typeof setInterval> = setInterval(revealOriginalName, 90);
 
     return () => {
       clearInterval(intervalIdRandom);
@@ -54,7 +54,7 @@ const IntroName = () => {
   return (
     <div className='w-screen h-screen flex flex-col justify-center' id = "home">
       <h1 className = "text-4xl font-poppins font-extrabold text-off-white flex justify-center tracking-wider md:text-6xl lg:text-8xl">MICHAEL DENG</h1>
-      <p className = "text-2xl font-mono text-burnt-yellow font-regular flex justify-center tracking-widest text-center mt-4 md:text-3xl">{displayedName}</p>
+      <p className = "text-lg font-mono text-burnt-yellow font-regular flex justify-center tracking-widest text-center mt-4 md:text-3xl">{displayedName}</p>
     </div>
   )
 }
