@@ -13,7 +13,7 @@ const ProjectPreview = () => {
         <div className='w-full bg-[#19232C] min-h-[200px] flex flex-col gap-3 rounded-md max-w-[400px] m-auto lg:max-w-lg'>
           <Link href = "./components/projects/hearth">
           <div className='w-full bg-white rounded-t-md'>
-            <img src={'/hearthPreview.png'} alt='' className='w-min rounded-t-md object-fill' />
+            <img src={'/previews/hearthPreview.png'} alt='' className='w-min rounded-t-md object-fill' />
           </div>
           <div className="w-full flex flex-col gap-1 p-5">
             <h4 className='font-poppins text-xl font-bold'>HearthDBT</h4>
@@ -31,7 +31,7 @@ const ProjectPreview = () => {
       <div className='w-full bg-[#19232C] min-h-[200px] flex flex-col gap-3 rounded-md max-w-[400px] m-auto md:w-1/2 md:min-w-[330px] lg:w-1/5 lg:m-0'>
       <Link href = "./components/projects/maps">
         <div className='w-full bg-white max-h-[200px] rounded-t-md'>
-          <img src={'/vuePreview.png'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
+          <img src={'/previews/vuePreview.png'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
         </div>
         <div className="w-full min-h-[50%] flex flex-col gap-1 p-5">
           <h4 className='font-poppins text-xl font-bold'>Maps Catalog</h4>
@@ -46,7 +46,7 @@ const ProjectPreview = () => {
       <div className='w-full bg-[#19232C] min-h-[200px] flex flex-col gap-3 rounded-md max-w-[400px] m-auto md:w-1/2 md:min-w-[330px] lg:w-1/5 lg:m-0'>
       <Link href = "./components/projects/scobaby">
         <div className='w-full bg-white max-h-[200px] rounded-t-md'>
-          <img src={'/scobabyPreview.png'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
+          <img src={'/previews/scobabyPreview.png'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
         </div>
         <div className="w-full min-h-[50%] flex flex-col gap-1 p-5">
           <h4 className='font-poppins text-xl font-bold'>Scobaby</h4>
@@ -61,7 +61,7 @@ const ProjectPreview = () => {
       <div className='w-full bg-[#19232C] min-h-[200px] flex flex-col gap-3 rounded-md max-w-[400px] m-auto md:w-1/2 md:min-w-[330px] lg:w-1/5 lg:m-0'>
       <Link href = "./components/projects/card">
         <div className='w-full bg-white max-h-[200px] rounded-t-md'>
-          <img src={'/cardgamePreview.JPG'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
+          <img src={'/previews/cardgamePreview.JPG'} alt='' className='w-full rounded-t-md max-h-[200px] min-h-[200px] object-cover' />
         </div>
         <div className="w-full min-h-[50%] flex flex-col gap-1 p-5">
           <h4 className='font-poppins text-xl font-bold'>Card Game</h4>

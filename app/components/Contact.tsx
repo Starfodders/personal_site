@@ -9,19 +9,19 @@ const Contact = () => {
           </div>
           <div className="w-full flex flex-col md:w-2/5">
             <div className='flex gap-3 pb-3'>
-              <img src = {'/linked.svg'}/>
+              <img src = {'/icons/linked.svg'}/>
               <p className='font-mono'>LinkedIn</p>
             </div>
             <div className='flex gap-3 pb-3'>
-              <img src = {'/mail.svg'}/>
+              <img src = {'/icons/mail.svg'}/>
               <p className='font-mono'>michaeldeng55@gmail.com</p>
             </div>
             <div className='flex gap-3 pb-3'>
-              <img src = {'/github.svg'}/>
+              <img src = {'/icons/github.svg'}/>
               <p className='font-mono'>Github</p>
             </div>
             <div className='flex gap-3 pb-3'>
-              <img src = {'/instagram.svg'}/>
+              <img src = {'/icons/instagram.svg'}/>
               <p className='font-mono'>Instagram</p>
             </div>
           </div>
