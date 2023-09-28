@@ -19,8 +19,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" href={metadata.icons.apple} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-        <meta property="og:image" content='https://michaeldeng.netlify.app/logo.png' />
+        <meta property="og:image" content="https://michaeldeng.netlify.app/opengraphIMG.png" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="michaeldeng.netlify.app" />
+        <meta property="twitter:url" content="https://michaeldeng.netlify.app/" />
+        <meta name="twitter:title" content="Michael Deng" />
+        <meta name="twitter:description" content="Software Engineer Portfolio for Michael Deng" />
+        <meta name="twitter:image" content="https://michaeldeng.netlify.app/opengraphIMG.png" />
       </Head>
       {children}
     </>
