@@ -8,7 +8,7 @@ const page = () => {
         <h1 className="w-full text-off-white">HearthDBT</h1>
       </div>
       <div >
-        <p className="text-md font-poppins leading-7 text-off-white p-5 lg:max-w-3xl lg:m-auto lg:p-0 lg:py-10">Dialectical Behavior Therapy (DBT) reimagined. I've deconstructed complex topics into bite-sized units, making it more digestible and engaging. Users can bookmark pertinent content and easily refer back to it whenever needed.</p></div>
+        <p className="text-md font-poppins leading-7 text-off-white p-5 lg:max-w-3xl lg:m-auto lg:p-0 lg:py-10">Dialectical Behavior Therapy (DBT) reimagined. Ive deconstructed complex topics into bite-sized units, making it more digestible and engaging. Users can bookmark pertinent content and easily refer back to it whenever needed.</p></div>
       <div className="p-5 flex flex-col gap-3 lg:max-w-3xl lg:m-auto lg:p-0">
         <h2 className="font-mono text-off-white">Technologies</h2>
         <p className="font-mono text-[#BEBEBE]">React, Netlify, MySQL, Amazon RDS </p>

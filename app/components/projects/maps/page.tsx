@@ -29,7 +29,7 @@ const page = () => {
         <div className="flex flex-col py-4 lg:max-w-3xl">
           <img src={'/maps/maps3.png'} />
         </div>
-        <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Location's local time and timezone displayed on top left, then added to history within paginated table.</p>
+        <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Locations local time and timezone displayed on top left, then added to history within paginated table.</p>
       </div>
       <div className="fixed bottom-10 right-0 bg-burnt-yellow p-2 pl-4 rounded-l-md lg:p-4 lg:pl-6">
         <a href="./scobaby" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
