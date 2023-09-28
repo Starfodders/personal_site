@@ -28,10 +28,10 @@ const MobileNavMenu = () => {
           setHasToggled(true);
         }} />
         <ul className='flex flex-col h-screen gap-3 mt-10 ml-5'>
-          <a href = "#home" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">01</span> home</li></a>
-          <a href = "#skills" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">02</span> skillset</li></a>
-          <a href = "#projects" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">03</span> work</li></a>
-          <a href = "#contact" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">04</span> contact</li></a>
+          <a href = "/#home" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">01</span> home</li></a>
+          <a href = "/#skills" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">02</span> skillset</li></a>
+          <a href = "/#projects" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">03</span> work</li></a>
+          <a href = "/#contact" onClick = {() => handleClick()}><li className="font-abel text-2xl text-off-black"><span className="text-xl text-burnt-yellow">04</span> contact</li></a>
           <p className="text-black font-abel pt-5 pr-20">© 2023. NextJS, ThreeJS, and Typescript. Made by Michael Deng</p>
         </ul>
       </div>
