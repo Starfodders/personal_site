@@ -21,10 +21,12 @@ const page = () => {
       </div>
       <div className="flex flex-col p-4 items-center mb-[10rem]">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/previews/cardgamePreview.JPG'}/>
+          <img src = {'/previews/cardgamePreview.jpeg'}/>
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Concept was a rogue-lite deckbuilder, fighting through waves of enemies. Cards would require energy to use, managing this precious resource as well as your HP. Left stack is your deck, right stack is the discard and destroy pile.</p>
       </div>
+      <div className="fixed bottom-10 left-0 bg-burnt-yellow p-2 pr-4 rounded-r-md lg:p-4 lg:pr-6">
+        <a href="./maps" className="text-md text-white lg:text-2xl font-mono" >Prev Project</a></div>
     </>
   )
 }

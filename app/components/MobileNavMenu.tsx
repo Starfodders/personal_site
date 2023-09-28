@@ -23,7 +23,7 @@ const MobileNavMenu = () => {
       </div>
       {/* Menu Element */}
       <div className={`h-screen w-11/12 bg-off-white fixed inset-x-0 -translate-x-full ${hasToggled ? (menuOn ? 'animate-menuSlideIn' : 'animate-menuSlideOut') : ''}`}>
-        <img src='/closeBtn.svg' alt="" className='m-5 mt-10' onClick={() => {
+        <img src='/icons/closeBtn.svg' alt="" className='m-5 mt-10' onClick={() => {
           setMenuOn(false);
           setHasToggled(true);
         }} />

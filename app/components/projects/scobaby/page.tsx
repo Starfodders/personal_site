@@ -37,6 +37,10 @@ const page = () => {
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Checkout & breakdown of costs, issuing orders.</p>
       </div>
+      <div className="fixed bottom-10 right-0 bg-burnt-yellow p-2 pl-4 rounded-l-md lg:p-4 lg:pl-6">
+        <a href="./card" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
+      <div className="fixed bottom-10 left-0 bg-burnt-yellow p-2 pr-4 rounded-r-md lg:p-4 lg:pr-6">
+        <a href="./maps" className="text-md text-white lg:text-2xl font-mono" >Prev Project</a></div>
     </>
   )
 }

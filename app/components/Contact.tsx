@@ -10,19 +10,19 @@ const Contact = () => {
           <div className="w-full flex flex-col md:w-2/5">
             <div className='flex gap-3 pb-3'>
               <img src = {'/icons/linked.svg'}/>
-              <p className='font-mono'>LinkedIn</p>
+              <a href = "https://www.linkedin.com/in/michael-deng-840215199/" target= "_blank" className='font-mono'>LinkedIn</a>
             </div>
             <div className='flex gap-3 pb-3'>
               <img src = {'/icons/mail.svg'}/>
-              <p className='font-mono'>michaeldeng55@gmail.com</p>
+              <a className='font-mono' href = "mailTo:michaeldeng55@gmail.com">michaeldeng55@gmail.com</a>
             </div>
             <div className='flex gap-3 pb-3'>
               <img src = {'/icons/github.svg'}/>
-              <p className='font-mono'>Github</p>
+              <a className='font-mono' href = "https://github.com/Starfodders" target='_blank'>Github</a>
             </div>
             <div className='flex gap-3 pb-3'>
               <img src = {'/icons/instagram.svg'}/>
-              <p className='font-mono'>Instagram</p>
+              <a className='font-mono' href = "https://www.instagram.com/mikodeng/" target= "_blank">Instagram</a>
             </div>
           </div>
         </div>

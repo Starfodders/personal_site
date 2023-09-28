@@ -11,7 +11,7 @@ const App = () => {
     <div className='app-wrapper'>
       <NavBar/>
       <IntroName/>
-      {/* <BackgroundAsset/> */}
+      <BackgroundAsset/>
       <Skillset/>
       <ProjectPreview/>
       <Contact/>

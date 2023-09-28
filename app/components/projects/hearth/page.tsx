@@ -21,28 +21,30 @@ const page = () => {
       </div>
       <div className="flex flex-col p-4 items-center">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/hearth/hearth1.png'}/>
+          <img src={'/hearth/hearth1.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Login with authentication and guest sign up features.</p>
       </div>
       <div className="flex flex-col p-4 items-center">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/hearth/hearth2.png'}/>
+          <img src={'/hearth/hearth2.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Content separated into chapters, further into sections and units.</p>
       </div>
       <div className="flex flex-col p-4 items-center">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/hearth/hearth3.png'}/>
+          <img src={'/hearth/hearth3.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Units broken into readable cards that can be saved. Dark mode available as well.</p>
       </div>
       <div className="flex flex-col p-4 items-center mb-[10rem]">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/hearth/hearth4.png'}/>
+          <img src={'/hearth/hearth4.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Easily access saved content.</p>
       </div>
+      <div className="fixed bottom-10 right-0 bg-burnt-yellow p-2 pl-4 rounded-l-md lg:p-4 lg:pl-6">
+        <a href = "./maps" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
     </>
   )
 }

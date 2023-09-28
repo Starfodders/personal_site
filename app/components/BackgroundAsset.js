@@ -5,18 +5,10 @@ import { useRef } from 'react';
 
 const SphereMesh = () => {
     const meshRef = useRef(null);
-    let elapsedTime = 0;
 
     useFrame((state) => {
         if (meshRef.current) {
             meshRef.current.rotation.y += 0.01;
-            elapsedTime += state.clock.getDelta(); 
-
-            meshRef.current.children[0].position.x = 0 * Math.sin(elapsedTime * 0.006); 
-            meshRef.current.children[0].position.z = 0 * Math.cos(elapsedTime * 0.006);
-
-            // meshRef.current.children[1].position.x = 0.8 * Math.sin(elapsedTime * 1.2);
-            // meshRef.current.children[1].position.z = 0.8 * Math.cos(elapsedTime * 1.2);
         }
     });
 
@@ -25,9 +17,8 @@ const SphereMesh = () => {
             <sphereGeometry args={[1, 32, 32]} />
             <meshStandardMaterial color="#5B9ED7" transparent = {true} opacity={0.5}/>
             <SphereMesh2/>
-            {/* <SphereMesh3/> */}
             <CubeMesh/>
-            <CubeMesh2/>
+            <CubeMesh rotation={[0, Math.PI/4, 0]} />
         </mesh>
     );
 }
@@ -42,7 +33,7 @@ const SphereMesh2 = () => {
     });
 
     return (
-    <mesh ref={meshRef2} position={[0, 0, 0]}  castShadow rotation={[Math.PI / 1.3, 5, 0.2]}>
+    <mesh ref={meshRef2} position={[0, 0, 0]}  rotation={[Math.PI / 1.3, 5, 0.2]}>
         <sphereGeometry args={[0.5, 32, 32]} />
         <meshStandardMaterial color="white" wireframe = {true}/>
     </mesh>
@@ -50,36 +41,11 @@ const SphereMesh2 = () => {
 
 }
 
-// const SphereMesh3 = () => {
-//     const meshRef3 = useRef(null);
-
-//     useFrame(() => {
-//         if (meshRef3.current) {
-//             meshRef3.current.rotation.y += 0.03;
-//         }
-//     });
-
-//     return (
-//         <mesh ref={meshRef3} position={[-0.5, 0, -0.7]}  castShadow rotation={[Math.PI / 1.3, 0, 0.2]}>
-//             <sphereGeometry args={[0.15, 32, 32]} />
-//             <meshStandardMaterial color="blue"/>
-//         </mesh>
-//     );
-// }
-
-const CubeMesh = () => {
+const CubeMesh = ({ rotation = [0, 0, 0] }) => {
     return (
-        <mesh position={[0, 0, 0]}>
+        <mesh position={[0, 0, 0]} rotation={rotation}>
             <boxGeometry args={[2, 2, 2]} />
             <meshStandardMaterial color="#FFB854" wireframe= {true} />
-        </mesh>
-    );
-}
-const CubeMesh2 = () => {
-    return (
-        <mesh position={[0, 0, 0]} rotation = {[0, Math.PI/4, 0]}>
-            <boxGeometry args={[2, 2, 2]} />
-            <meshStandardMaterial color="#FFB854" wireframe = {true}/>
         </mesh>
     );
 }

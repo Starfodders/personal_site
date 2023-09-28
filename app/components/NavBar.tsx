@@ -33,7 +33,9 @@ const NavBar = () => {
       <div className="flex justify-start w-full md:justify-between md:mt-3">
         <MobileNavMenu />
         <div className="w-1/3 flex items-center md:p-5">
+        <a href = "/#home" className='w-1/3'>
           <img src = {'/logo.png'} alt = '' className='max-w-[10rem] min-w-[10rem] hover:cursor-pointer'/>
+          </a>
         </div>
         <div className="w-4/12 hidden justify-center md:flex">
           <ul className="flex gap-10">

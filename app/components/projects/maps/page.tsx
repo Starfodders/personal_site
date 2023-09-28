@@ -21,16 +21,20 @@ const page = () => {
       </div>
       <div className="flex flex-col p-4 items-center">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/maps/maps1.png'}/>
+          <img src={'/maps/maps1.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Simple but functional in design. Used Window WebAPI to retrieve own location.</p>
       </div>
       <div className="flex flex-col p-4 items-center mb-[10rem]">
         <div className="flex flex-col py-4 lg:max-w-3xl">
-          <img src = {'/maps/maps3.png'}/>
+          <img src={'/maps/maps3.png'} />
         </div>
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Location's local time and timezone displayed on top left, then added to history within paginated table.</p>
       </div>
+      <div className="fixed bottom-10 right-0 bg-burnt-yellow p-2 pl-4 rounded-l-md lg:p-4 lg:pl-6">
+        <a href="./scobaby" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
+      <div className="fixed bottom-10 left-0 bg-burnt-yellow p-2 pr-4 rounded-r-md lg:p-4 lg:pr-6">
+        <a href="./hearth" className="text-md text-white lg:text-2xl font-mono" >Prev Project</a></div>
     </>
   )
 }
