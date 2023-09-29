@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <>
       {/* Mobile Nav Menu */}
-      <div className="flex justify-start w-full md:justify-between md:mt-3">
+      <div className="flex justify-start w-full md:justify-between md:mt-3 select-none">
         <MobileNavMenu />
         <div className="w-1/3 flex items-center md:p-5">
         <a href = "/#home" className='w-1/3'>

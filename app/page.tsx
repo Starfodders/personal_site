@@ -5,6 +5,7 @@ import BackgroundAsset from './components/BackgroundAsset'
 import Skillset from './components/Skillset'
 import ProjectPreview from './components/ProjectPreview'
 import Contact from './components/Contact'
+import ReturnToTop from './components/ReturnToTop'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Skillset/>
       <ProjectPreview/>
       <Contact/>
+      <ReturnToTop/>
     </div>
   )
 }

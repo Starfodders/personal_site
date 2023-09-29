@@ -20,6 +20,7 @@ const config: Config = {
       },
       colors: {
         'burnt-yellow': '#C4AF9A',
+        'burnt-yellow-highlighted' : '#9C8C7B',
         'off-black' : '#1E1E24',
         'off-white' : '#E5E5E5',
         'pillbox-color': '#BEBEBE'

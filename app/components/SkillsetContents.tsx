@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const SkillsetContents = () => {
   return (
-    <div className='w-full flex flex-wrap justify-between lg:max-w-[80%]'>
+    <div className='w-full flex flex-wrap justify-between lg:max-w-[80%] select-none'>
       <div className="w-1/4 p-2 flex flex-col items-center gap-2 md:w-1/5 lg:w-[calc(100%/9)] lg:p-4">
           <Image src = {'/icons/react.svg'} alt = '' className="w-logo min-h-[40px] lg:w-logo-lg lg:min-h-[50px]" width={40} height={40}/>
           <p>React</p>

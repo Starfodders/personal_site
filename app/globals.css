@@ -80,6 +80,11 @@ html {
 
 }
 
+::selection {
+  background: #C4AF9A;
+  color: black;
+}
+
 @keyframes menuSlideIn {
   0% {
     transform: translateX(-100%);
