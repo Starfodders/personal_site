@@ -9,7 +9,7 @@ const ProjectPreview = () => {
       <div className='md:flex flex-col items-center md:flex-row md:justify-around w-full xl:max-w-[1050px]'>
         <div className='flex flex-col gap-10 py-4 px-6 items-center md:items-start md:h-full lg:w-full'>
           <h3 className='font-poppins text-5xl font-bold lg:text-7xl'>Projects</h3>
-          <p className='font-mono py-4 font-medium leading-relaxed text-xl text-center mb-16 md:max-w-[20rem] md:text-left lg:text-2xl'>Junior developer with a background in visual arts and health sciences. My goal is to create contemporary digital solutions.</p>
+          <p className='font-mono py-4 font-medium leading-relaxed text-xl text-center mb-16 md:max-w-[27rem] md:text-left lg:text-2xl'>As a Software Developer, I fuse a robust background in visual design with a commitment to crafting high-quality code. With meticulous attention to detail, I'm deeply passionate about the intricate interplay of creativity and self-expression in every project.</p>
         </div>
         <div className='group w-full bg-[#19232C] min-h-[200px] flex flex-col gap-3 rounded-md max-w-[400px] m-auto lg:max-w-lg hover:bg-[#202b36] hover:transition-all duration-500 xl:max-w-[550px]'>
           <Link href="./components/projects/hearth">
