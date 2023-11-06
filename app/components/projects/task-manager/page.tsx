@@ -35,7 +35,7 @@ const page = () => {
         <div className="flex flex-col py-4 lg:max-w-3xl">
           <img src = {'/taskman/task3.png'}/>
         </div>
-        <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Django view. On app initialization, send CSRF token for authentication. Another function to handle posts to the connected Redis server. Also sends over every stored list within the cache to update the history of previous tasks by quering the cache. Redis data does not persist on purpose as it doesn't meet the requirements of this project. </p>
+        <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Django view. On app initialization, send CSRF token for authentication. Another function to handle posts to the connected Redis server. Also sends over every stored list within the cache to update the history of previous tasks by quering the cache. Redis data does not persist on purpose as it doesnt meet the requirements of this project. </p>
         <div className="flex flex-col p-4 items-center mb-[10rem]">
         <div className="flex flex-col py-4 lg:max-w-3xl">
           <img src = {'/taskman/task4.png'}/>
