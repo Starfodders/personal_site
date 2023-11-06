@@ -44,7 +44,7 @@ const page = () => {
         <p className="font-poppins text-sm w-full text-off-white lg:max-w-3xl">Easily access saved content.</p>
       </div>
       <div className="fixed bottom-10 right-0 bg-burnt-yellow p-2 pl-4 rounded-l-md lg:p-4 lg:pl-6">
-        <a href = "./maps" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
+        <a href = "./task-manager" className="text-md text-white lg:text-2xl font-mono" >Next Project</a></div>
     </>
   )
 }

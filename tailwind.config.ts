@@ -29,7 +29,8 @@ const config: Config = {
         'sm' : '475px',
         'md' : '768px',
         'lg' : '1024px',
-        'xl' : '1440px'
+        'xl' : '1440px',
+        '2xl': '2000px'
       },
       width: {
         'logo' : '40px',

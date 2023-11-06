@@ -11,7 +11,7 @@ const page = () => {
         <p className="text-md font-poppins leading-7 text-off-white p-5 lg:max-w-3xl lg:m-auto lg:p-0 lg:py-10">Storefront and inventory for homecrafted Kombucha products. Customers can view available stock and issue orders.</p></div>
       <div className="p-5 flex flex-col gap-3 lg:max-w-3xl lg:m-auto lg:p-0">
         <h2 className="font-mono text-off-white">Technologies</h2>
-        <p className="font-mono text-[#BEBEBE]">React, Figma</p>
+        <p className="font-mono text-[#BEBEBE]">React, Figma, Heroku</p>
         <a href="https://scobaby-570a2.web.app/" className="max-w-[11rem] group" target="_blank">
           <div className="flex items-center justify-between mt-5 gap-1 bg-off-black py-1 px-2 rounded-md max-w-[11rem] group-hover:bg-burnt-yellow transition-colors">
             <p className="font-mono text-md text-off-white group-hover:text-white">Go to Project</p>
