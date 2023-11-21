@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar'
 import IntroName from './components/IntroName'
 import BackgroundAsset from './components/BackgroundAsset'
@@ -12,7 +12,6 @@ const App = () => {
     <div className='app-wrapper'>
       <NavBar/>
       <IntroName/>
-      <BackgroundAsset/>
       <Skillset/>
       <ProjectPreview/>
       <Contact/>
