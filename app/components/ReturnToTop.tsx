@@ -25,7 +25,7 @@ const ReturnToTop = () => {
 if (buttonState) {
     return (
         <div className='fixed bottom-8 right-8 bg-burnt-yellow p-2 rounded-md hover:cursor-pointer hover:bg-burnt-yellow-highlighted animate-navDown' onClick = {() => window.scrollTo(0,0)}>
-            <Image src = {"/icons/arrowForward.svg"} alt = '' width={30} height={30} className='rotate-[270deg]'/>
+            <Image src = {"/icons/arrowForward.svg"} alt = 'return to top' width={30} height={30} className='rotate-[270deg]'/>
         </div>
       )
 }
